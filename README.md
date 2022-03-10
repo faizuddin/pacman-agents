@@ -1,7 +1,7 @@
 # AI algorithms for Pacman
 
 ## Intro
-[The Pacman Projects](http://ai.berkeley.edu/project_overview.html) by the [University of California, Berkeley](http://berkeley.edu/).
+The Pacman Projects by the [University of California, Berkeley](http://berkeley.edu/).
 
 ![Animated gif pacman game](http://ai.berkeley.edu/images/pacman_game.gif)
 
@@ -37,3 +37,6 @@ $ python pacman.py -l mediumClassic -p ExpectimaxAgent -a depth=2
 ```
 $ python pacman.py -l trickyClassic -p DeepSearchAgent -a depth=6 evalFn=evaluationFunction
 ```
+
+### Python environment installation
+- There are many methods to get Python on your local computer but I'd suggest you to install [Anaconda](https://www.anaconda.com/products/individual) as this method would not interfere your system, particularly if you have an existing Python installed. Further instructions on how to install Anaconda can be found [here](https://docs.anaconda.com/anaconda/user-guide/getting-started/).
