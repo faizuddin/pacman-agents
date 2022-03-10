@@ -5,7 +5,7 @@ The Pacman Projects by the [University of California, Berkeley](http://berkeley.
 
 ![Animated gif pacman game](http://ai.berkeley.edu/images/pacman_game.gif)
 
-Start a game with the command and move the agents using ASWD keyboard buttons or arrow keys:
+Start a game with the command and move the agents using A=left, S=down, W=up, D=right keyboard buttons or arrow keys:
 ```
 $ python pacman.py
 ```
@@ -33,7 +33,7 @@ $ python pacman.py -l mediumClassic -p ExpectimaxAgent -a depth=2
 ```
 
 ## Search algorithms
-- DeepSearch: a deep search algorithm to find the best possible path given an evaluation function, it si faster than minimax but doesn't keep into considerations ghosts
+- DeepSearch: a deep search algorithm to find the best possible path given an evaluation function, it is faster than minimax but doesn't keep into considerations ghosts
 ```
 $ python pacman.py -l trickyClassic -p DeepSearchAgent -a depth=6 evalFn=evaluationFunction
 ```
