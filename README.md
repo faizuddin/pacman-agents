@@ -17,7 +17,7 @@ $ python pacman.py -h
 ## Multi-Agent algorithms
 - ReflexAgent: an agent that considers food locations, ghost locations and score to perform well.
 ```
-$ python pacman.py -p ReflexAgent -l originalClassic -n 1 -ghost DirectionalGhost -z 0.8 -k 1
+$ python pacman.py -p ReflexAgent -l originalClassic -n 1 -g DirectionalGhost -z 0.8 -k 1
 ```
 - MinimaxAgent: an adversarial search agent implementing minimax algorithm
 ```
@@ -35,7 +35,7 @@ $ python pacman.py -l mediumClassic -p ExpectimaxAgent -a depth=2
 ## Search algorithms
 - DeepSearch: a deep search algorithm to find the best possible path given an evaluation function, it is faster than minimax but doesn't keep into considerations ghosts
 ```
-$ python pacman.py -l trickyClassic -p DeepSearchAgent -a depth=6 evalFn=evaluationFunction
+$ python pacman.py -l trickyClassic -p DeepSearchAgent -a "depth=6,evalFn=evaluationFunction"
 ```
 
 ### Python environment installation
